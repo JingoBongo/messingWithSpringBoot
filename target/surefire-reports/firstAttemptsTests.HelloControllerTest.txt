@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: firstAttemptsTests.HelloControllerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.538 s <<< FAILURE! - in firstAttemptsTests.HelloControllerTest
+getHello  Time elapsed: 1.359 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at firstAttemptsTests.HelloControllerTest.getHello(HelloControllerTest.java:30)
+
